@@ -100,3 +100,19 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  .app-link {
+    display: block;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+}
